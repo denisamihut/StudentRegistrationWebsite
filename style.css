@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-position: top center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.form-registration {
+  background-color: #47B5FF;
+  color: black;
+  font-size: 17px;
+}
+
+::placeholder {
+  color: black;
+  opacity: 1;
+  font-size: 15px;
+}
+
+.row .input-group .input-group-addon {
+  background-color: transparent;
+  color: black;
+  border: none;
+}
+
+.input-group .form-control {
+  border: transparent;
+  box-shadow: none;
+  border-bottom: 1px solid grey;
+  border-radius: 0;
+}
+
+input[type="text"], input[type="address"], input[type="email"], input[type="password"] {
+  border: none;
+  border-bottom: 1px solid var(--color_title);
+  width: 100%;
+  float: left;
+}
+
+input[type="submit"] {
+  background-color: greenyellow;
+  border: none;
+  color: black;
+  cursor: pointer;
+  margin-top: 20px;
+  padding-top: 15px;
+  margin-left: 180px;
+  padding-bottom: 15px;
+  font-size: 17px;
+  width: 100%;
+  border-radius: 3px;
+}
+
+input[type="submit"]:hover {
+  background-color: green;
+}
+

@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>PW | Lab1 5</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap v4.5.2 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Font Awesome from Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="text-center">
+    <main class="form-registration container py-5">
+        <h1 class="title">Student registration form</h1>
+        <form name="myform" id="myForm">
+
+            <div class="row">
+                <div class="col-md-6 mt-5">
+                    <div class="input-group form-data mb-5">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                        <input id="first-name" type="text" required class="form-control" name="first-name"
+                            placeholder="First Name">
+                    </div>
+                    <div class="input-group form-data mb-5">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                        <input id="last-name" type="text" class="form-control" name="last-name" placeholder="Last Name">
+                    </div>
+                    <div class="input-group form-data mb-5">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-map-marker"></i></span>
+                        <input id="address" type="address" class="form-control" name="addr" placeholder="Address">
+                    </div>
+                </div>
+
+                <div class="col-md-6 mt-5">
+                    <div class="input-group mb-5">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                        <input id="email" type="email" required class="form-control" name="email"
+                            placeholder="E-mail Address">
+                    </div>
+                    <div class="input-group mb-5">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                        <input type="password" id="pass" name="password" minlength="8" required class="form-control"
+                            placeholder="Password">
+                    </div>
+                    <div class="input-group mb-5">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                        <input type="password" id="pass" name="password" minlength="8" required class="form-control"
+                            placeholder="Retype Password">
+                    </div>
+                </div>
+
+                <div class="col-md-6 text-center mt-1">
+                    <div class="form-input text-center d-flex flex-column align-items mt-sm-5 mb-sm-3">
+                        <input type="submit" name="submit" value="CREATE ACCOUNT" />
+                    </div>
+                </div>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
